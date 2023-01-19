@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(../image/desert-night-minimal-4k-hp.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+body .moon {
+  background-color: whitesmoke;
+  width: 200px;
+  height: 200px;
+  position: relative;
+  border-radius: 100%;
+  margin: 50px 30px 0;
+  box-shadow: inset -11px -8px 0px 4px rgba(0, 0, 0, 0.05), 0px 0px 10px 0px rgb(250, 250, 250), 0px 0px 50px 0px rgb(250, 250, 250), 0px 0px 500px 0px rgb(250, 250, 250);
+}
+body .moon .crater {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background-color: rgba(0, 0, 0, 0.25);
+  border-radius: 100%;
+  bottom: 12px;
+  left: 58px;
+}
+body .moon .crater::after {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  background-color: rgba(250, 250, 250, 0.6);
+  top: 0px;
+  left: 7px;
+}
+body .moon .crater:nth-child(1) {
+  content: "";
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  background-color: rgba(0, 0, 0, 0.25);
+  top: 50px;
+  left: 25px;
+}
+body .moon .crater:nth-child(1)::after {
+  content: "";
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  background-color: rgba(250, 250, 250, 0.6);
+  top: 0px;
+  left: 7px;
+}
+body .moon .crater:nth-child(2) {
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  background-color: rgba(0, 0, 0, 0.25);
+  bottom: 35px;
+  left: 25px;
+}
+body .moon .crater:nth-child(2)::after {
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  background-color: rgba(250, 250, 250, 0.6);
+  top: 0px;
+  left: 4px;
+}/*# sourceMappingURL=style.css.map */
